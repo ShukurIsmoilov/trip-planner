@@ -65,6 +65,16 @@ function readCommand() {
                 }, 2000 * i + 2000);
             }
 
+            function congratAlert() {
+                setTimeout(function () {
+                    alert('congrat to you. you are great tourist');
+                }, 2000 * 3 + 2000);
+                
+            }
+            
+            congratAlert();
+
+
 
         } else {
             console.log("Syntax error, Correctly type city names");
